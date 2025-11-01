@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# === CMSE492 Project Specific Ignores ===
+# Ignore raw and processed data files that are too large for GitHub
+data/raw/
+data/raw/*
+data/processed/*.csv
+
+# Keep a small sample dataset for demonstration
+!data/processed/sample_cicids2017.csv
+
+# Ignore large model or output files
+models/
+figures/
+*.h5
+*.joblib
+*.pkl

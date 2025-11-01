@@ -6,24 +6,24 @@ In this initial phase, the project repository is being structured and the develo
 
 ## Directory Structure
 
-data/ – Contains all datasets used in the project.
+`data` – Contains all datasets used in the project.
 
-raw/ → Original unprocessed network traffic data.
+  raw → Original unprocessed network traffic data.
 
-processed/ → Cleaned and transformed datasets ready for analysis.
+  processed → Cleaned and transformed datasets ready for analysis.
 
-docs/ – Stores written documentation, reports, and presentation materials.
+`docs` – Stores written documentation, reports, and presentation materials.
 
-figures/ – Contains all plots, charts, and visualizations generated during exploratory data analysis or model evaluation.
+`figures` – Contains all plots, charts, and visualizations generated during exploratory data analysis or model evaluation.
 
-notebooks/ – Includes all Jupyter notebooks used for exploration and experimentation.
+`notebooks` – Includes all Jupyter notebooks used for exploration and experimentation.
 
-exploratory/ → Early-stage EDA, baseline models, and testing ideas.
+  exploratory → Early-stage EDA, baseline models, and testing ideas.
 
-src/ – Holds all source code for the project pipeline.
+`src` – Holds all source code for the project pipeline.
 
-preprocessing/ → Scripts for data cleaning and feature engineering.
+  preprocessing/ → Scripts for data cleaning and feature engineering.
 
-models/ → Model training, tuning, and saving logic.
+  models → Model training, tuning, and saving logic.
 
-evaluation/ → Performance metrics, results generation, and comparison scripts.
+  evaluation → Performance metrics, results generation, and comparison scripts.

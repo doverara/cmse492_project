@@ -21,3 +21,9 @@ In this initial phase, the project repository is being structured and the develo
 - **preprocessing** → Scripts for data cleaning and feature engineering.  
 - **models** → Model training, tuning, and saving logic.  
 - **evaluation** → Performance metrics, results generation, and comparison scripts.
+
+## Setup instructions
+
+**Clone the repository:**
+- git clone git@github.com:doverara/cmse492_project.git
+- cd cmse492_project

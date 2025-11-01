@@ -8,9 +8,9 @@ In this initial phase, the project repository is being structured and the develo
 
 `data` – Contains all datasets used in the project.
 
-  raw → Original unprocessed network traffic data.
+  - raw → Original unprocessed network traffic data.
 
-  processed → Cleaned and transformed datasets ready for analysis.
+  - processed → Cleaned and transformed datasets ready for analysis.
 
 `docs` – Stores written documentation, reports, and presentation materials.
 

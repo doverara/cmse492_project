@@ -1,8 +1,10 @@
 # Designing a Scalable Data Pipeline for Cyber Threat Detection
 
-This project focuses on building a scalable data pipeline capable of detecting cyber threats in real time by leveraging machine learning and network traffic analytics. The goal is to design an end-to-end workflow that ingests, preprocesses, and analyzes network data to identify patterns of anomalous or malicious activity.
+This project focuses on building a scalable end to end data pipeline for real time cyber threat detection using machine learning and network traffic analytics. The goal is to process raw network flow data, engineer meaningful features, and apply supervised learning models to identify patterns associated with anomalous or malicious activity.
 
-In this initial phase, the project repository is being structured and the development environment is being configured. Future stages will involve data acquisition, preprocessing, model experimentation, and performance evaluation on simulated and real-world traffic datasets.
+The final pipeline includes data ingestion, preprocessing, feature engineering, exploratory analysis, and model training using Logistic Regression, Random Forest, and a Feedforward Neural Network. Random Forest achieved the strongest performance across accuracy, recall, and AUC-ROC, making it the most effective model for intrusion detection in this dataset.
+
+Due to the size of the CICIDS-2017 dataset, only a small sample file is included in this repository; the full dataset must be downloaded separately. All figures, scripts, preprocessing steps, and notebook workflows are provided to ensure reproducibility of results.
 
 ## Directory Structure
 
